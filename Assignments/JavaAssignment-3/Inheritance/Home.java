@@ -1,14 +1,13 @@
 public class Home{
 
     int lightsCount;
-    String roomName;
 
-    Home(int lightsCount, String roomName){
+    Home(int lightsCount){
         this.lightsCount = lightsCount;
-        this.roomName = roomName;
     }
 
-    public void noOfLights() {
-        System.out.println("No: of lights in home");
+    public void noOfLights()
+    {
+        System.out.println("Number of lights in Room: "+lightsCount);
     }
 }

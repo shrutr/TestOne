@@ -1,13 +1,13 @@
-public class DrawingRoom extends Home{
+public class DrawingRoom extends Home {
 
 
-    DrawingRoom(int lightsCount, String roomName){
-        super(lightsCount, roomName);
+    DrawingRoom(int lightsCount) {
+        super(lightsCount);
     }
 
-    public void noOfLights() {
+    public void myDrawingRoom(String roomName) {
         System.out.println("Room name is: " + roomName);
-        System.out.println("Number of lights: " + lightsCount);
+        super.noOfLights();
     }
 
 }

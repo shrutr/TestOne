@@ -1,15 +1,13 @@
+public class BedRoom extends Home {
 
 
-public class BedRoom extends Home{
-
-
-    BedRoom(int lightsCount, String roomName){
-        super(lightsCount, roomName);
+    BedRoom(int lightsCount) {
+        super(lightsCount);
     }
 
-    public void noOfLights() {
+    public void myBedRoom(String roomName) {
         System.out.println("Room name is: " + roomName);
-        System.out.println("Number of lights: " + lightsCount);
+        super.noOfLights();
     }
 
 }
